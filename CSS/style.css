@@ -1,0 +1,54 @@
+:root{
+    --cor-main: rgb(17, 100, 100);
+}
+*{    
+    color: rgb(40, 212, 212);
+    font-size: 30px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: radial-gradient(black, rgb(25, 16, 65), purple, black);
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1.5px solid white;
+}
+.display{
+    background: none;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: aliceblue;
+    text-align: right;
+    height: 50px;
+}
+.btn{
+    background: none;
+    border-radius: 7px;
+    border: 1px solid white;
+    width: 94%;
+    height: 50px;
+}
+
+.btn:hover{
+    background: rgb(95, 1, 95);
+}
+.btn:active{
+    background: rgb(53, 0, 53);
+    color: aliceblue;
+}
+h1{
+    background: none;
+}
+table{
+    background: none;
+}
