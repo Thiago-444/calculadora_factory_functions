@@ -1,0 +1,10 @@
+  estrutura basica da tabela
+  
+  <table>   **tag da tabela
+        <tr>  **tag da linha da tabela
+            <th></th>  ** celula de titulo
+        </tr>
+        <tr>
+            <td></td>  ** celula para conteudo/registro
+        </tr>
+    </table>

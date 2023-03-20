@@ -24,6 +24,7 @@ body{
     border: 1.5px solid white;
 }
 .display{
+    font-size: auto;
     background: none;
     border: 2px solid white;
     border-radius: 7px;
